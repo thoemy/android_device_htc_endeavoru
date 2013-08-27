@@ -92,16 +92,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/nfcee_access.xml:system/etc/nfcee_access.xml
 
-# Torch
-PRODUCT_PACKAGES += \
-    Torch
-
 # Other extra packages
 PRODUCT_PACKAGES += \
-    librs_jni \
-    make_ext4fs \
-    setup_fs \
-    com.android.future.usb.accessory
+    librs_jni
 
 # Bluetooth tools
 PRODUCT_PACKAGES += \
@@ -110,23 +103,11 @@ PRODUCT_PACKAGES += \
     hcitool \
     libbt-vendor
 
-# NFC packages
-PRODUCT_PACKAGES += \
-    libnfc \
-    libnfc_jni \
-    Nfc \
-    Tag \
-    com.android.nfc_extras
-
 # audio packages
 PRODUCT_PACKAGES += \
-    audio.a2dp.default \
-    libaudioutils \
-    libtinyalsa \
     tinymix \
     tinyplay \
     tinycap
-
 
 # Wi-Fi
 PRODUCT_PACKAGES += \
