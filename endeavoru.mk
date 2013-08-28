@@ -62,7 +62,6 @@ PRODUCT_COPY_FILES += \
 
 # audio
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/prebuilt/audio/asound.conf:system/etc/asound.conf \
     $(LOCAL_PATH)/prebuilt/audio/audio_effects.conf:system/etc/audio_effects.conf
 
 # misc
