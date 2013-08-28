@@ -16,9 +16,6 @@
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
-PRODUCT_AAPT_CONFIG := normal hdpi xhdpi
-PRODUCT_AAPT_PREF_CONFIG := xhdpi
-
 DEVICE_PACKAGE_OVERLAYS += device/htc/endeavoru/overlay
 
 # Set default USB interface
@@ -29,9 +26,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # by us to enable booting into recovery after flashing boot.img
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.dexopt-data-only=1
-
-# EndeavorU is similar to Galaxy Nexus in terms of RAM
-include frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk
 
 # we have enough storage space to hold precise GC data
 PRODUCT_TAGS += dalvik.gc.type-precise
