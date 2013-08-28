@@ -41,14 +41,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += $(call add-to-product-copy-files-if-exists,\
 packages/wallpapers/LivePicker/android.software.live_wallpaper.xml:system/etc/permissions/android.software.live_wallpaper.xml)
 
-# Input config files
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/prebuilt/usr/idc/atmel-maxtouch.idc:system/usr/idc/atmel-maxtouch.idc \
-    $(LOCAL_PATH)/prebuilt/usr/idc/synaptics-rmi-touchscreen.idc:system/usr/idc/synaptics-rmi-touchscreen.idc \
-    $(LOCAL_PATH)/prebuilt/usr/idc/tv-touchscreen.idc:system/usr/idc/tv-touchscreen.idc \
-    $(LOCAL_PATH)/prebuilt/usr/keylayout/qwerty.kl:system/usr/keylayout/qwerty.kl \
-    $(LOCAL_PATH)/prebuilt/usr/keylayout/tegra-kbc.kl:system/usr/keylayout/tegra-kbc.kl
-
 # media config xml file
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/media_profiles.xml:system/etc/media_profiles.xml
