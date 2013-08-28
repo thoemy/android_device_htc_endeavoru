@@ -69,10 +69,8 @@ PRODUCT_COPY_FILES += \
 
 # configs
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/config/enctune.conf:system/etc/enctune.conf \
     $(LOCAL_PATH)/config/Flash_Loader.conf:system/etc/Flash_Loader.conf \
     $(LOCAL_PATH)/config/gps.conf:system/etc/gps.conf \
-    $(LOCAL_PATH)/config/nvcamera.conf:system/etc/nvcamera.conf \
     $(LOCAL_PATH)/config/nvram_4329.txt:system/etc/nvram_4329.txt \
     $(LOCAL_PATH)/config/nvram_4330.txt:system/etc/nvram_4330.txt
 
