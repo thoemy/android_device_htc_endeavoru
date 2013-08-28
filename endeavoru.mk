@@ -70,11 +70,8 @@ PRODUCT_COPY_FILES += \
 
 # audio
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/prebuilt/audio/AIC3008_REG_DualMic.csv:system/etc/AIC3008_REG_DualMic.csv \
-    $(LOCAL_PATH)/prebuilt/audio/AIC3008_REG_DualMic_XC.csv:system/etc/AIC3008_REG_DualMic_XC.csv \
     $(LOCAL_PATH)/prebuilt/audio/asound.conf:system/etc/asound.conf \
-    $(LOCAL_PATH)/prebuilt/audio/audio_effects.conf:system/etc/audio_effects.conf \
-    $(LOCAL_PATH)/prebuilt/audio/DSP_number.txt:system/etc/DSP_number.txt
+    $(LOCAL_PATH)/prebuilt/audio/audio_effects.conf:system/etc/audio_effects.conf
 
 # misc
 PRODUCT_COPY_FILES += \
