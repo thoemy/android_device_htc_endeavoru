@@ -238,3 +238,5 @@ lib/libhtcsurfaces.so
 lib/libposteffect.so
 lib/libOlaEngineNew.so
 lib/libhtc_dis.so
+
+etc/Flash_Loader.conf
