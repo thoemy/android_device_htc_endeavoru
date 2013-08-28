@@ -47,13 +47,7 @@ PRODUCT_COPY_FILES += \
 
 # configs
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/gps.conf:system/etc/gps.conf \
-    $(LOCAL_PATH)/configs/nvram_4329.txt:system/etc/nvram_4329.txt \
-    $(LOCAL_PATH)/configs/nvram_4330.txt:system/etc/nvram_4330.txt
-
-# misc
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/model_frontal.xml:system/etc/model_frontal.xml
+    $(LOCAL_PATH)/configs/gps.conf:system/etc/gps.conf
 
 # nfc
 PRODUCT_COPY_FILES += \
